@@ -55,7 +55,7 @@ export default {
       jsonText += '"Telefoon" : "' + this.$refs.Telefoon.info + '",';
       jsonText += '"Acties" : "' + this.$refs.ActionsCheck.info + '"';
       jsonText += "}";
-      console.log(jsonText);
+      console.log(JSON.parse(jsonText));
     }
   }
 };
